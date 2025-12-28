@@ -9,6 +9,7 @@ BUILD:
 
 PROCESS:
 "Workflow:
+    
     STEP-1:
     'Understand the complete scope of the application, including user interactions, data flows, and network communication requirements.'
 
