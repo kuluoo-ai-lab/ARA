@@ -9,6 +9,7 @@ BUILD:
 
 PROCESS:
 "Workflow:
+    
     STEP-1:
     'Gather and prioritize initial requirements in a product backlog.
      Involve stakeholders to define high-level features and acceptance criteria.'
