@@ -9,6 +9,7 @@ BUILD:
 
 PROCESS:
 "Workflow:
+  
     STEP-1:
     'Conduct comprehensive requirement gathering sessions with all stakeholders.
      Document functional, non-functional, regulatory, and operational requirements in a formal Software Requirements Specification (SRS).
