@@ -1,0 +1,16 @@
+<data>
+  data_name=
+  connect
+  public/private
+  create
+  use
+  alter
+  internal/external
+  store
+  declare
+  environment
+  signal
+  checkpoint
+  source
+  location
+</data>
