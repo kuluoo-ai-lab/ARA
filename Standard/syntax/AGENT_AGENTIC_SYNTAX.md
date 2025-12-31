@@ -3,8 +3,20 @@ AGENT AND AAGENTIC SYNTAX
 <agent>
 agent_name=
 environment=
-	data
+	<data>
+	</data>
 	intent
+	create
+	build
+	process
+	alter
+	manage
+	monitor
+	execute
+	collabrate
+	rule
+	protect
+	maintain
 	variable
 	function
 checkpoint
