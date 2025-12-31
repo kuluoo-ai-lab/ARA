@@ -1,6 +1,9 @@
 AGENT AND AAGENTIC SYNTAX
 
 <agent>
+	TOKEN_LIMIT=
+	TOKEN_MIN=
+	TOKEN_MAX=
 agent_name=
 environment=
 	<data>
@@ -24,6 +27,9 @@ memory
 </agent>
 <agentic>
 	agent_name=
+	TOKEN_LIMIT=
+	TOKEN_MIN=
+	TOKEN_MAX
 environment=
 	data
 	intent
