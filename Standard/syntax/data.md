@@ -13,4 +13,5 @@
   checkpoint
   source
   location
+  SEARCH
 </data>
