@@ -4,5 +4,5 @@
 
 - **Status:** Lauched  
 - **Testing:** On-Progress  
-- **Version:** 1.0
+- **Version:** 1.0 -[THE MVP]
 - - **Stage:** Alpha Stage
