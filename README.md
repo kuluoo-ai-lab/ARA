@@ -707,27 +707,7 @@ PROTECT {
 
 ---
 
-## 🏛️ Architecture
 
-### Compilation Pipeline
-
-```
-ARA Source Code
-      ↓
-[Lexical Analysis]     → Tokenize
-      ↓
-[Syntax Analysis]      → Parse & Build AST
-      ↓
-[Semantic Analysis]    → Validate types, intents, rules
-      ↓
-[Code Generation]      → Generate target language
-      ↓
-[Optimization]         → Optimize for performance
-      ↓
-Production Code (Python/TypeScript/Go/Java)
-      ↓
-[Deployment]           → Docker, K8s, Cloud
-```
 
 ### Generated Artifacts
 
@@ -742,75 +722,7 @@ For each ARA program, the compiler generates:
 7. **Test Suites** - Jest/pytest unit tests
 8. **Monitoring Config** - Prometheus/DataDog setup
 
----
 
-## 📦 Installation
-
-### From NPM
-
-```bash
-npm install -g ara-lang
-```
-
-### From PyPI
-
-```bash
-pip install ara-lang
-```
-
-### From Source
-
-```bash
-git clone https://github.com/ara-lang/ara.git
-cd ara
-make install
-```
-
-### Verify Installation
-
-```bash
-ara --version
-ara --help
-```
-
----
-
-## 🔨 Compilation
-
-### Basic Compilation
-
-```bash
-# Compile to Python
-ara compile app.ara --target python --output ./generated
-
-# Compile to TypeScript
-ara compile app.ara --target typescript --output ./generated
-
-# Compile to Go
-ara compile app.ara --target go --output ./generated
-
-# Compile to Java
-ara compile app.ara --target java --output ./generated
-```
-
-### With Options
-
-```bash
-# Generate tests
-ara compile app.ara --target python --generate-tests
-
-# Generate documentation
-ara compile app.ara --target python --generate-docs
-
-# Optimize aggressively
-ara compile app.ara --target python --optimize aggressive
-
-# Set output directory
-ara compile app.ara --target python --output /path/to/output
-
-# Watch mode (recompile on changes)
-ara compile app.ara --target python --watch
-```
 
 ### Generated Output Structure
 
